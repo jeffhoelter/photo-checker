@@ -26,7 +26,7 @@ func main() {
 
 	t := time.Now()
 	currentDate := t.Format("2006-01-02")
-	auditOutputDir := fmt.Sprintf("%s/Hashdeep/Hashdeep-Audit-%s", baseDir, currentDate)
+	auditOutputDir := fmt.Sprintf("%s/Hashdeep/Hashdeep-Audits/Hashdeep-Audit-%s", baseDir, currentDate)
 	sh.Command("mkdir", auditOutputDir).Run()
 
 	directories := strings.Split(string(out), "\n")
