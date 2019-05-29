@@ -12,3 +12,6 @@
 *.out
 
 photo-checker
+
+
+.DS_Store

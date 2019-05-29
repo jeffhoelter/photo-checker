@@ -1,0 +1,13 @@
+/Users/jhoelter/dev/photo-checker/sample-directory/photos/dir2/file3.txt: Moved from /volume1/homes/jhoelter/go/src/clitest/photos/dir2/file2.txt
+/Users/jhoelter/dev/photo-checker/sample-directory/photos/dir2/file.txt: Moved from /volume1/homes/jhoelter/go/src/clitest/photos/dir2/file2.txt
+/Users/jhoelter/dev/photo-checker/sample-directory/photos/dir2/file2.txt: Moved from /volume1/homes/jhoelter/go/src/clitest/photos/dir2/file2.txt
+/volume1/homes/jhoelter/go/src/clitest/photos/dir2/file.txt: Known file not used
+/volume1/homes/jhoelter/go/src/clitest/photos/dir2/file3.txt: Known file not used
+hashdeep: Audit failed
+   Input files examined: 0
+  Known files expecting: 0
+          Files matched: 0
+Files partially matched: 0
+            Files moved: 3
+        New files found: 0
+  Known files not found: 2
